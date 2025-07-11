@@ -1,7 +1,7 @@
 import { TaskQueue } from "./task-queue.js";
 import { recursiveFind } from "./recursive-find.js";
 
-if (process.argv < 4) {
+if (process.argv.length < 4) {
   console.log(
     "Use: node recursive-find-cli.js <dirname> <keyword> <concurrency>"
   );
