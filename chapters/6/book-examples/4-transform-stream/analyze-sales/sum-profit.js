@@ -13,7 +13,7 @@ export class SumProfit extends Transform {
   }
 
   _flush(cb) {
-    this.push(this.total.toString());
+    this.push(this.total.toString() + "\n");
     cb();
   }
 }

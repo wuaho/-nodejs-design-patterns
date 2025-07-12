@@ -1,5 +1,5 @@
 import { createReadStream } from "fs";
-import parse from "csv-parse";
+import { parse } from "csv-parse";
 import { FilterByCountry } from "./filter-by-country.js";
 import { SumProfit } from "./sum-profit.js";
 
